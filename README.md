@@ -12,6 +12,15 @@ pip install langchain-openai langchain-anthropic langchain-google-genai langchai
 
 Additionally, ensure you have API keys for the respective models and that they are set up in your environment variables using a `.env` file.
 
+### Environment Variables
+Set up your API keys by creating a `.env` file in the root directory:
+```env
+OPENAI_API_KEY=your_openai_key
+ANTHROPIC_API_KEY=your_anthropic_key
+GOOGLE_API_KEY=your_google_key
+HUGGINGFACE_API_KEY=your_huggingface_key
+```
+
 ## 1. OpenAI Models
 
 ### 1.1 Chat Model (OpenAI)
