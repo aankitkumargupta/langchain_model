@@ -18,7 +18,7 @@ Set up your API keys by creating a `.env` file in the root directory:
 OPENAI_API_KEY=your_openai_key
 ANTHROPIC_API_KEY=your_anthropic_key
 GOOGLE_API_KEY=your_google_key
-HUGGINGFACE_API_KEY=your_huggingface_key
+HUGGINGFACEHUB_API_KEY=your_huggingface_api_key
 ```
 
 ## 1. OpenAI Models
