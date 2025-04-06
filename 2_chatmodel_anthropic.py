@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-model = ChatAnthropic(model="gpt-4")
+model = ChatAnthropic(model="claude-3-7-sonnet-20250219")
 
 result = model.invoke("what is the capital of Delhi")
 print(result)
